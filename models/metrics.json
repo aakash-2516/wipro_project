@@ -1,0 +1,43 @@
+{
+  "best_model": "Random Forest",
+  "results": {
+    "Ridge Regression": {
+      "cv_r2": 0.2161,
+      "test_r2": 0.2571,
+      "test_mae": 0.1034,
+      "test_rmse": 0.1404
+    },
+    "Random Forest": {
+      "cv_r2": 0.5043,
+      "test_r2": 0.5486,
+      "test_mae": 0.0691,
+      "test_rmse": 0.1095
+    },
+    "Gradient Boosting": {
+      "cv_r2": 0.4997,
+      "test_r2": 0.486,
+      "test_mae": 0.0745,
+      "test_rmse": 0.1168
+    }
+  },
+  "rows": 1197,
+  "train_rows": 957,
+  "test_rows": 240,
+  "features": [
+    "department",
+    "quarter",
+    "day",
+    "team",
+    "targeted_productivity",
+    "smv",
+    "wip",
+    "over_time",
+    "incentive",
+    "idle_time",
+    "idle_men",
+    "no_of_style_change",
+    "no_of_workers",
+    "overtime_per_worker",
+    "has_incentive"
+  ]
+}
